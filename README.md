@@ -36,8 +36,8 @@ This project demonstrates SQL techniques used by analysts to explore, clean, and
 - Operational action: staffing and promo windows recommended around peak hours.
 
 Dashboard Screenshot:
-![home](img_home.png)
-![top_bottom](img_top_bottom.png)
+[home](img_home.png)
+[top_bottom](img_top_bottom.png)
 
 
 
