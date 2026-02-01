@@ -37,8 +37,8 @@ This project demonstrates SQL techniques used by analysts to explore, clean, and
 
 ## Dashboard screenshots
 <p float="left">
-  <img src="powerbi_dashboard_ss/image.png" alt="Home" width="480" />
-  <img src="powerbi_dashboard_ss/image2.png" alt="Top and Bottom Pizzas" width="480" />
+  <img src="powerbi_dashboard_ss/img_home.png" alt="Home" width="480" />
+  <img src="powerbi_dashboard_ss/image2_top_bottom.png" alt="Top and Bottom Pizzas" width="480" />
 </p>
 
 *Figure: Left — Home / Executive Summary. Right — Top/Bottom product analysis.*
