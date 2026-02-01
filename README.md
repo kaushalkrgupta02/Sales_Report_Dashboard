@@ -35,9 +35,13 @@ This project demonstrates SQL techniques used by analysts to explore, clean, and
 - Revenue dynamics: monthly growth and category-level share identified.
 - Operational action: staffing and promo windows recommended around peak hours.
 
-Dashboard Screenshot:
-[home](img_home.png)
-[top_bottom](img_top_bottom.png)
+## Dashboard screenshots
+<p float="left">
+  <img src="powerbi_dashboard_ss/image.png" alt="Home" width="480" />
+  <img src="powerbi_dashboard_ss/image2.png" alt="Top and Bottom Pizzas" width="480" />
+</p>
+
+*Figure: Left — Home / Executive Summary. Right — Top/Bottom product analysis.*
 
 
 
