@@ -1,6 +1,6 @@
 # Project Title: Pizza Data Analysis
 
-Short summary: SQL-driven analysis of pizza sales and customer behavior with a Power BI reference dashboard.
+This project demonstrates SQL techniques used by analysts to explore, clean, and analyze pizza sales and customer data. The analysis focuses on understanding order patterns, revenue, customer behavior, and menu performance to support business decision-making. And Power BI is used to represent the Business insights.
 
 ## Objectives
 - Build a clean, usable pizza sales dataset and simple relational model.
@@ -8,13 +8,12 @@ Short summary: SQL-driven analysis of pizza sales and customer behavior with a P
 - Perform EDA to uncover time, product, and customer patterns.
 - Produce actionable business insights for menu, marketing, and operations.
 
-## Database Structure (tables)
-- `orders` — order_id, custid, order_date, order_time, status
+## Dataset
+- `orders_2025` — order_id, custid, order_date, order_time, status
 - `order_details` — order_details_id, order_id, pizza_id, quantity
-- `pizzas` — pizza_id, pizza_type_id, size, price
+- `pizzas_info_2025` — pizza_id, pizza_type_id, size, price
 - `pizza_types` — pizza_type_id, name, category, ingredients
 
-Note: This repo currently contains `orders_2025.csv` and `pizzas_info_2025.csv`. Either rename to match SQL (`orders_2026` / `pizzas_2026`) or update `sql_queries_analysis.sql` to use the existing filenames.
 
 ## Data cleaning & exploration
 - Count records per table and verify primary keys.
@@ -36,11 +35,11 @@ Note: This repo currently contains `orders_2025.csv` and `pizzas_info_2025.csv`.
 - Revenue dynamics: monthly growth and category-level share identified.
 - Operational action: staffing and promo windows recommended around peak hours.
 
-## Files to review
-- `sql_queries_analysis.sql` — analysis queries (update names if needed)
-- `dataset/` — source CSVs (`orders_2025.csv`, `order_details.csv`, `pizzas_info_2025.csv`, `pizza_types.csv`)
-- `sales_dashboard_kpis.pbix` — Power BI reference file
+Dashboard Screenshot:
+![home](img_home.png)
+![top_bottom](img_top_bottom.png)
 
-If you want, I can standardize filenames in the repo or update the SQL to match the existing CSVs.
+
+
 
 
